@@ -60,53 +60,6 @@
  }
  
 
- .dropit-inverse{
-    list-style: none;
-    padding: 0;
-    margin: 0 0 15px;
-    float:left;
-    display:inline-block;
-    text-align:left;
- }
- .dropit-inverse .dropit-inverse-trigger { position: relative; }
-.dropit-inverse .dropit--inverse-submenu {
-    position: absolute;
-    bottom: 100%;
-    left: 0; /* dropdown left or right */
-    display: none;
-    z-index: 1000;
-    min-width: 100px;
-    list-style: none;
-    padding: 20px;
-    margin: 0 0 20px;}
-
-   .dropit-inverse .dropit-inverse-open .dropit-inverse-submenu:after {
-  content: " ";
-  position: absolute;
-  border-style: solid;
-  border-width: 0 8px 8px;
-  border-color: #FFFFFF transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  top: -8px;
-  right: 10px;
- }
- .dropit-inverse .dropit-inverse-open .dropit-inverse-submenu li {
-  display: block;
-  margin-bottom: 20px;
- }
- .dropit-inverse .dropit-inverse-open .dropit-inverse-submenu li:last-child {
-  margin-bottom: 0px;
- }
- 
- .dropit-inverse .dropit-inverse-submenu .dropit-inverse-open li a{
-    color:#34495E;
-    text-decoration: none;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-weight:100;
- }
-
 
 
 

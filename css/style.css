@@ -437,6 +437,10 @@
    margin-right:8px;
  }
 
+.left-nav .items a:active {
+   background-color:blue;
+ };
+
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
